@@ -51,14 +51,14 @@ def main():
         if choice == "1":
             description = input("Enter task description: ")
             task_manager.add_task(description)
-            print("Task added successfully.")
+            print("Task added successfully. Yay!!")
         elif choice == "2":
             task_manager.view_tasks()
         elif choice == "3":
             task_index = int(input("Enter task index to mark as completed: "))
             task_manager.mark_task_completed(task_index)
         elif choice == "4":
-            print("Exiting program.")
+            print("Exiting program. Shutting down...")
             break
         else:
             print("Invalid choice. Please try again.")
