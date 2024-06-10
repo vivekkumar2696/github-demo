@@ -38,6 +38,7 @@ class TaskManager:
 
     def dummy_method(self):
         print("Hello World!")
+        print("THis is a dummy method..")
 
 def main():
     task_manager = TaskManager()
