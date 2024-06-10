@@ -36,9 +36,13 @@ class TaskManager:
                 status = "Completed" if task.completed else "Pending"
                 file.write(f"{task.description} - {status}\n")
 
+    def dummy_method(self):
+        print("Hello World!")
+
 def main():
     task_manager = TaskManager()
-
+    task_manager.dummy_method()
+    
     while True:
         print("\nTask Management System")
         print("1. Add Task")
